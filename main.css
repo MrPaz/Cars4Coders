@@ -1,4 +1,31 @@
-.carousel-inner img {
-    margin: auto;
+.fixed_bottom{
+    position: sticky;
+    bottom: 0vh;
+    background-color: lightgrey;
+    width: 100%;
+    z-index: 100;
+    vertical-align: middle;
+    padding-left: 1.5em;
 
-  }
+}
+.fixed_top{
+    position: sticky;
+    top: 0vh;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+.logo {
+    font-size: 2.5em;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+    font-style: italic;
+}
+.nav_font {
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    font-style: italic;
+}
+.nav_padding {
+    padding-left: 2.5rem;
+}
